@@ -6,9 +6,11 @@
   "author": "Cameron Reid <csreid.cr@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "4.15.4",
     "neon-cli": "^0.1.18"
   },
   "scripts": {
-    "install": "neon build"
+    "install": "neon build",
+    "start": "node index.js"
   }
 }
