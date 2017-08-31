@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
 	res.send(rusty.hello());
 });
 
-app.listen(3000);
+app.listen(process.env.PORT);
