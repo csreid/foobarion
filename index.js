@@ -6,5 +6,7 @@ let app = express();
 let rusty = require('./native');
 
 app.get('/', (req, res) => {
-	res.send(rust.hello());
+	res.send(rusty.hello());
 });
+
+app.listen(3000);
